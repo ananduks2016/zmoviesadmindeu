@@ -54,7 +54,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
         return
 
     if int(user_id) in SUDO_USERS:
-        message.reply_text("I spy, with my little eye... a sudo user war! Why are you guys turning on each other?")
+        message.reply_text("@legendoftelegram")
         return
 
     if int(user_id) in SUPPORT_USERS:
@@ -91,7 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️")
+    message.reply_text("🤬🤬🤬🤬🤬processing🤬🤬🤬")
 
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
