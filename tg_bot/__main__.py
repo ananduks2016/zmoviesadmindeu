@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-owned by @zmovies10  [here](https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA) 
+owned by @zmovies10  [ZMOVIES](https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA) 
 
 """
 
